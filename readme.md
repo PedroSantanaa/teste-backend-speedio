@@ -1,5 +1,7 @@
 # API de scraping do Similarweb
 
+API criada para o teste de desenvolvedor backend na Speedio
+
 ## Tecnologias Utilizadas 
   - Python
   - MongoDb
