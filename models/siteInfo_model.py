@@ -2,12 +2,12 @@ from pydantic import BaseModel
 
 class SiteInfo(BaseModel):
     url: str
-    classification: str
+    siteName: str
+    classification: dict
     category: str
-    ranking_change: float
     average_visit_duration: str
     pages_per_visit: float
-    bounce_rate: float
+    bounce_rate: str
     top_countries: list
     gender_distribution: dict
     age_distribution: dict
